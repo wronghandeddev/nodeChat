@@ -1,3 +1,30 @@
 {
-    "deno.enable": false
+    "deno.enable": true,
+    "cSpell.enableFiletypes": [
+        "!javascript",
+        "analytics",
+        "arduino-output",
+        "dotenv",
+        "git-rebase",
+        "gitignore",
+        "graphql",
+        "http",
+        "log",
+        "makefile",
+        "nginx",
+        "pdf",
+        "properties",
+        "puppet",
+        "sql",
+        "todo",
+        "vue",
+        "vue-html",
+        "webassembly",
+        "xml"
+    ],
+    "jslint.config": "",
+    "jshint.options":{
+        "esversion":6
+    }
+    "jshint.config": {},
 }
