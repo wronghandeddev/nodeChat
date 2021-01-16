@@ -27,7 +27,7 @@ io.on('connection', (socket) => {
 
         socket.join(user.room)
 
-        socket.emit('message', generateMessage('Admin', 'Make sure the user your talking to is the person you think it is(ask something only they would know)'))
+        socket.emit('message', generateMessage('Admin', 'Make sure the user your talking to '))
         socket.broadcast.to(user.room).emit('message', generateMessage('Admin', `${user.username} has joined!`))
         io.to(user.room).emit('roomData', {
             room: user.room,

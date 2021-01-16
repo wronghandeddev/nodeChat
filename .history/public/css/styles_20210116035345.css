@@ -36,9 +36,7 @@ input {
     padding: 12px;
     outline: none;
 }
-#btnStart{
-	background-color: black;
-}
+
 button {
     cursor: pointer;
     padding: 12px;
